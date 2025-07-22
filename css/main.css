@@ -1,3 +1,4 @@
+/* REGOLE GENERALI */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/* REGOLE HEADER */
 #logo {
     width: 35%;
     text-align: center;
@@ -45,6 +48,30 @@ a {
 nav.tipologia {
     text-align: left;
 }
+
 nav.pulsanti-pagina {
     text-align: end;
+}
+
+/* MAIN */
+.row {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.colonne-card {
+    width: calc((100% / 3) - (20px /3));
+   /*  flex-shrink: 0; */
+    /* Debug */
+    background-color: blueviolet;
+    min-height: 400px;
+    border-style: dashed;
+
+}
+.card {
+    /* Debug */
+/*     height: 200px;
+    background-color: aqua; */
 }
