@@ -71,7 +71,26 @@ nav.pulsanti-pagina {
 
 }
 .card {
-    /* Debug */
-/*     height: 200px;
-    background-color: aqua; */
+    position: relative;
+}
+.card img {
+    max-width: 100%;
+}
+.new-price {
+    font-size: 13px;
+    color: red;
+}
+.old-price {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.preferiti {
+    font-size: 20px;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.card:hover .cuore {
+    color: red;
 }
