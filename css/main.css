@@ -126,3 +126,28 @@ nav.pulsanti-pagina {
 .front {
     z-index: 2;
 }
+/* FOOTER */
+footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #1A1A1A;
+    height: 100px;
+}
+
+.finale-pagina section {
+    /* debug */
+    height: 50px;
+    background-color: #FE6901;
+    border: dashed;
+}
+.finale-pagina {
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.footer-pagina {
+    width: calc(100% / 2);
+}
