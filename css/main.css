@@ -11,27 +11,40 @@ a {
     color: white;
 }
 #logo {
-    width: 40%;
+    width: 35%;
     text-align: center;
+    position: absolute;
+    left: 30%;
+
 }
 
 .container {
     max-width: 80%;
     margin: 0 auto;
-
+    
 }
 .intestazione { 
     color: white;
-    border-style: dashed;
+    
     display: flex;
     /*Debug*/
-    height: 70px;
-    background-color: brown;
+/*     height: 70px;
+    border-style: dashed;
+    background-color: brown; */
 }
- .header-pagina {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: calc(100% / 3);
-   background-color: aqua;
-   border-style: dashed;
+.header-pagina {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   width: calc(100% / 3);
+   position: relative;
+   /* Debug */
+/*   background-color: aqua;
+  border-style: dashed; */
+}
+
+nav.tipologia {
+    text-align: left;
+}
+nav.pulsanti-pagina {
+    text-align: end;
 }
